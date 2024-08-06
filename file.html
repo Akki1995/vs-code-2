@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Invoice UAE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* body,
+      tr,
+      td,
+      p,
+      table,
+      hr {
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+      } */
+      * {
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+      }
+      /* .first_table {
+        width: 50%;
+      }
+      .second_table {
+        width: 50%;
+      } */
+      /* .Section {
+        display: flex;
+        width: 100%;
+      } */
+      /* .last-table {
+        display: flex;
+      } */
+
+      .details-table {
+        width: 100%;
+        border-bottom: 1px solid black;
+
+        text-align: left;
+      }
+      .total-table {
+        width: 100%;
+      }
+      /* .Bill-From,
+      .Our-Bank-Details {
+        width: 50%;
+      } */
+      .last-table {
+        padding-top: 5px;
+      }
+      /* .first_table,
+      .second_table {
+        float: left;
+        width: 50%;
+      } */
+      .first_table {
+        float: left;
+        width: 52%;
+      }
+      .second_table {
+        float: left;
+        width: 48%;
+      }
+      .Our-Bank-Details,
+      .Bill-From {
+        float: left;
+        width: 50%;
+      }
+
+      .border-to-bottom {
+        border-bottom: 1px solid rgb(179, 164, 164);
+        border-top: 1px solid rgb(179, 164, 164);
+      }
+      /* .underline {
+        text-decoration-line: underline;
+        text-decoration-color: brown;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <div id="header-html" class="letter-head" style="text-align: end">
+      <img alt="" src="/files/Syscort_logo_top.png" style="float: left" />
+      <br /><br />
+      <hr style="border: 1px solid black; margin-bottom: 0px" />
+    </div> -->
+    <div id="header-html" class="letter-head" style="text-align: end">
+      <img alt="" src="/files/Syscort_logo_top.png" style="float: left" />
+      <p class="underline" style="text-align: center; font-size: 25px">
+        Invoice
+      </p>
+      <br />
+    </div>
+    <!-- <p style="text-align: center; font-size: 25px">Invoice</p> -->
+    <div class="Section">
+      <table class="first_table">
+        <tr>
+          <td style="width: 10%"><strong>Bill To</strong></td>
+          <td style="width: 40%">: Syscort Global Services Private Limited</td>
+        </tr>
+        <tr>
+          <td><strong>Address</strong></td>
+          <td>
+            : D-40/5, N-12, Swami Vivekananda Nagar,<br />&nbsp; Hudco
+            <br />&nbsp;Aurangabad, 431001, India,
+          </td>
+        </tr>
+      </table>
+      <table class="second_table">
+        <tr>
+          <td style="width: 15%"><strong>Invoice Number</strong></td>
+          <td style="width: 35%">: AE-SI-00108</td>
+        </tr>
+        <tr>
+          <td><strong>Invoice Date</strong></td>
+          <td>: 2022-10-01</td>
+        </tr>
+        <tr>
+          <td><strong>Client Code</strong></td>
+          <td>: AE-CUST-2022- 00101</td>
+        </tr>
+        <tr>
+          <td><strong>Payment Due Date</strong></td>
+          <td>: 2022-12-01</td>
+        </tr>
+      </table>
+    </div>
+    <div class="section-two">
+      <table class="details-table">
+        <tr class="border-to-bottom">
+          <td style="width: 10%"><strong>Sr.No.</strong></td>
+          <td style="width: 42%"><strong>Description Services</strong></td>
+          <td style="width: 16%">
+            <strong>Amount(AED)</strong>
+          </td>
+          <td style="width: 34%">&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>
+            Software Consultancy Services <br />Software Consultancy Services
+            for September 2022 ( Part payment allowed)
+          </td>
+          <td>&nbsp;</td>
+          <td>: 66970.0 AED</td>
+        </tr>
+      </table>
+      <table class="total-table">
+        <tr>
+          <td style="width: 52%">&nbsp;</td>
+          <td style="width: 16%">
+            <strong>Sub Total</strong>
+          </td>
+
+          <td style="width: 32%">: 66970.0 AED</td>
+          <!-- <td style="width: 12%">:AED</td> -->
+        </tr>
+        <tr>
+          <td style="width: 50%">&nbsp;</td>
+          <td><strong>Discount</strong></td>
+          <!-- <td>:AED</td> -->
+          <td>: 0.00 AED</td>
+        </tr>
+        <tr>
+          <td style="width: 50%">&nbsp;</td>
+          <td><strong>Total Price</strong></td>
+          <!-- <td>:AED</td> -->
+          <td>: 66970.0 AED</td>
+        </tr>
+      </table>
+      <br />
+      <hr style="border: 1px solid rgb(179, 164, 164); margin: 0px" />
+      <p>
+        <strong>Amount in words : </strong>
+        AED Sixty Six Thousand, Nine Hundred And Seventy only.
+      </p>
+      <hr style="border: 1px solid rgb(179, 164, 164); margin: 0px" />
+    </div>
+    <div class="last-table">
+      <table class="Our-Bank-Details">
+        <tr>
+          <td style="width: 30%"><strong>Our Bank Details</strong></td>
+          <td style="width: 20%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td style="width: 25%">Bank Name</td>
+          <td style="width: 25%">: Emirates NBD</td>
+        </tr>
+        <tr>
+          <td>Account Holder</td>
+          <td>: Syscort Technologies</td>
+        </tr>
+        <tr>
+          <td>Account Number</td>
+          <td>: 1015798547301</td>
+        </tr>
+        <tr>
+          <td>IBAN</td>
+          <td>: AE210260001015798547301</td>
+        </tr>
+        <tr>
+          <td>Swift Code</td>
+          <td>: EBILAEAD</td>
+        </tr>
+        <tr>
+          <td>Account Type</td>
+          <td>: Current</td>
+        </tr>
+        <tr>
+          <td>Currency</td>
+          <td>: AED</td>
+        </tr>
+      </table>
+      <table class="Bill-From">
+        <tr>
+          <td style="width: 10%"><strong>Bill From</strong></td>
+          <td style="width: 40%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td style="width: 25%">Syscort Technologies Reg Office</td>
+          <td style="width: 25%">
+            : Ajmal Sarah Towers, Dubai-Land, Dubai, UAE
+          </td>
+        </tr>
+        <tr>
+          <td>Trade Lic.No</td>
+          <td>: 1027147</td>
+        </tr>
+        <tr>
+          <td>Contact Number</td>
+          <td>: +971-566634987</td>
+        </tr>
+      </table>
+    </div>
+    <div style="clear: left">
+      <p style="padding: 1px">&nbsp;</p>
+      <p style="text-align: center">
+        <strong
+          >For Further Information Please Contact : finance@syscort.com</strong
+        >
+      </p>
+      <p style="text-align: center; padding: 5px">
+        Partial payments also accepted for the given invoice
+      </p>
+      <hr style="border: 1px solid rgb(179, 164, 164); margin: 5px" />
+      <p style="text-align: center; padding-top: 3px">
+        This digitally generated invoice does not require a signature
+      </p>
+    </div>
+  </body>
+</html>
